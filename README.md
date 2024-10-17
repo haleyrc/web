@@ -1,6 +1,6 @@
-# lib-template
+# web
 
-Foundational elements for creating new "library" packages.
+A Go package for simplifying and standardizing working with HTTP requests and responses.
 
 ---
 
