@@ -28,3 +28,8 @@ func JSON(w http.ResponseWriter, body any) {
 	}
 	w.Write(bytes)
 }
+
+// StatusCode sets the HTTP status code.
+func StatusCode(w http.ResponseWriter, code int) {
+	w.WriteHeader(code)
+}
